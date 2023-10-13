@@ -20,6 +20,7 @@ public class ArrayPlainToStream {
         System.out.println("\nOperate on an array by stream: " + stream.toString());
 
         System.out.println("\nPrint each element:");
+//        stream.filter(s -> s.equals("first")).forEach(System.out::println);
         stream.forEach(System.out::println);
 
         System.out.println("\nStream data in an array, print each value:");
